@@ -74,7 +74,7 @@ http://127.0.0.1:8000/redoc
 2. Click on **`POST /token`**  
 3. Enter credentials:
    - **Username:** `test`  
-   - **Password:** `secret` (or whichever user you add in `fake_users_db`)  
+   - **Password:** `mypassword` (or whichever user you add in `fake_users_db`)  
 4. Copy the generated `access_token`  
 5. Authorize Swagger by clicking **Authorize 🔓** → paste token with `Bearer <your_token>`  
 6. Access **`GET /users/me`** – now it will return the current logged-in user 🎉  
